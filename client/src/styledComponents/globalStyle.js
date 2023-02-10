@@ -2,7 +2,6 @@
 
 import {createGlobalStyle} from 'styled-components';
 
-
 export const GlobalStyle = createGlobalStyle`
     :root {
         --min-color : orange;
@@ -12,13 +11,10 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
-    body {
-        width: 100%;
+    body , #root{
+        font-family: sans-serif;
         height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        min-height: 100vh;
     }
 `;
 
