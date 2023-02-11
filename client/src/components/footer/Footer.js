@@ -2,12 +2,12 @@
 
 import React from 'react';
 import { StyledFooter ,FooterCopyRight } from './footer.style';
-
+import { staticWords } from '../../staticWords';
 function Footer() {
   return (
     <StyledFooter>
         <FooterCopyRight>
-            copy right abdo ibrahim
+        &copy; {staticWords.footer}
         </FooterCopyRight>
     </StyledFooter>
   )
