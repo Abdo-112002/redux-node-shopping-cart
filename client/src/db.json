@@ -1,0 +1,59 @@
+
+[
+    {
+        "id" : "1",
+        "title" : "computer",
+        "imgUrl" : "./public/img/category-1.jpg",
+        "price" : "150",
+        "sizes" : ["l","xl","xxx"],
+        "desc"  : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur eaque tempora non reiciendis. Atque corporis, aliquam nihil aut vel quibusdam error delectus beatae optio modi non voluptate eligendi pariatur blanditiis, officia soluta. Perferendis harum voluptate, non repudiandae perspiciatis quo labore architecto, repellendus quasi sapiente "
+    },
+    {
+        "id" : "2",
+        "title" : "computer",
+        "imgUrl" : "./public/img/category-2.jpg",
+        "price" : "150",
+        "sizes" : ["l","xl","xxx"],
+        "desc"  : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur eaque tempora non reiciendis. Atque corporis, aliquam nihil aut vel quibusdam error delectus beatae optio modi non voluptate eligendi pariatur blanditiis, officia soluta. Perferendis harum voluptate, non repudiandae perspiciatis quo labore architecto, repellendus quasi sapiente "
+    },
+    {
+        "id" : "3",
+        "title" : "computer",
+        "imgUrl" : "./public/img/category-3.jpg",
+        "price" : "100",
+        "sizes" : ["l","xl","sm"],
+        "desc"  : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur eaque tempora non reiciendis. Atque corporis, aliquam nihil aut vel quibusdam error delectus beatae optio modi non voluptate eligendi pariatur blanditiis, officia soluta. Perferendis harum voluptate, non repudiandae perspiciatis quo labore architecto, repellendus quasi sapiente "
+    },
+    {
+        "id" : "4",
+        "title" : "computer",
+        "imgUrl" : "./public/img/category-4.jpg",
+        "price" : "880",
+        "sizes" : ["l","xl"],
+        "desc"  : "quis nemo ipsa quas cumque consectetur beatae voluptatum a officiis natus aliquam delectus voluptas distinctio? Quia ea hic ipsam est maxime necessitatibus natus veniam ipsum, quasi, quo molestias architecto quam labore dicta sint tempora eaque perferendis et aspernatur fugit cum eos magnam. Quo facere, facilis quia qui, ipsam, reiciendis nesciunt laboriosam ullam fugiat vero quis. Id. "
+    },
+    {
+        "id" : "5",
+        "title" : "computer",
+        "imgUrl" : "./public/img/discount1.jpg",
+        "price" : "1200",
+        "sizes" : ["sm","lg","xl"],
+        "desc"  : "quis nemo ipsa quas cumque consectetur beatae voluptatum a officiis natus aliquam delectus voluptas distinctio? Quia ea hic ipsam est maxime necessitatibus natus veniam ipsum, quasi, quo molestias architecto quam labore dicta sint tempora eaque perferendis et aspernatur fugit cum eos magnam. Quo facere, facilis quia qui, ipsam, reiciendis nesciunt laboriosam ullam fugiat vero quis. Id. "
+    },
+    {
+        "id" : "6",
+        "title" : "computer",
+        "imgUrl" : "./public/img/discount2.jpg",
+        "price" : "180",
+        "sizes" : ["sm","lg","xl"],
+        "desc"  : "quis nemo ipsa quas cumque consectetur beatae voluptatum a officiis natus aliquam delectus voluptas distinctio? Quia ea hic ipsam est maxime necessitatibus natus veniam ipsum, quasi, quo molestias architecto quam labore dicta sint tempora eaque perferendis et aspernatur fugit cum eos magnam. Quo facere, facilis quia qui, ipsam, reiciendis nesciunt laboriosam ullam fugiat vero quis. Id. "
+    },
+    {
+        "id" : "7",
+        "title" : "computer",
+        "imgUrl" : "./public/img/discount3.jpg",
+        "price" : "1000",
+        "sizes" : ["sm","lg","xl"],
+        "desc"  : "quis nemo ipsa quas cumque consectetur beatae voluptatum a officiis natus aliquam delectus voluptas distinctio? Quia ea hic ipsam est maxime necessitatibus natus veniam ipsum, quasi, quo molestias architecto quam labore dicta sint tempora eaque perferendis et aspernatur fugit cum eos magnam. Quo facere, facilis quia qui, ipsam, reiciendis nesciunt laboriosam ullam fugiat vero quis. Id. "
+    }
+]

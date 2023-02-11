@@ -1,13 +1,13 @@
 
 import React from 'react'
 import { StyledHeader, StyledLogo } from './header.style'
-
+import { staticWords } from '../../staticWords';
 
 function Header() {
   return (
     <StyledHeader>
         <StyledLogo>
-            shopping cart
+           {staticWords.logoName}
         </StyledLogo>
     </StyledHeader>
   )
