@@ -1,18 +1,17 @@
 
-import React , {useMemo} from 'react';
+import React , {memo } from 'react';
 import { CardImage, CartBtn, CartContent, CartDesc, CartItem, CartOption, CartPrice, CartSizes, CartTitle } from './cart.style';
 
 
 
-function CartDesign({item}) {
-    
-    const {title,desc,price,imgUrl,sizes} = useMemo(() => {
-        console.log("object")
-        return item;
-    }, [item]);
+function CartDesign({productDetailsModal,item}) {
+
+    console.log("object");
+
+    const {title,desc,price,imgUrl,sizes} = item;
     
   return (
-    <CartItem>
+    <CartItem onClick={()=> productDetailsModal(item)}>
       <CartContent>
         <CardImage src={imgUrl}/>
         <CartTitle>
@@ -44,4 +43,4 @@ function CartDesign({item}) {
   )
 }
 
-export default CartDesign
+export default memo(CartDesign)
