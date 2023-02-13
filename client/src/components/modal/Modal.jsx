@@ -27,18 +27,7 @@ function Modal({closeModal,product}) {
                     {details?.desc}
                 </CartDesc>
                 <CartDesc>
-                    {
-                        (details?.rating <= 0) 
-                        ? [...new Array(5)].map(()=>(
-                                <AiOutlineStar/>
-                        ))
-                        :  [...new Array(Math.floor(details?.rating) - 5)].map(()=> {
-                            [...new Array(Math.floor(details?.rating))].map(()=>(
-                                <AiFillStar color='gold'/> 
-                            ))
-                            return <AiOutlineStar/>
-                        })
-                    }
+                   c
                 </CartDesc>
                 <CartPrice>
                     ${details?.price}
