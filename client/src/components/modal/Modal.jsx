@@ -1,9 +1,8 @@
-import React,{useState , useEffect} from 'react'
+import React, { useEffect, useState } from 'react';
 import { CartBtn, CartDesc, CartOption, CartPrice, CartSizes, CartTitle } from '../cart/cart.style';
-import { ModalCloseBtn, ModalContent, ModalImg, ModalInfo, ModalWrapper } from './modal.style'
+import { ModalCloseBtn, ModalContent, ModalImg, ModalInfo, ModalWrapper } from './modal.style';
 
-import {AiOutlineStar,AiFillStar} from 'react-icons/ai';
-import {BsStarHalf} from 'react-icons/bs';
+import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
 
 function Modal({closeModal,product}) {
