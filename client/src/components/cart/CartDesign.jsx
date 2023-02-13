@@ -1,6 +1,7 @@
 
-import React , { memo } from 'react';
+import React, { memo } from 'react';
 import { CardImage, CartBtn, CartContent, CartDesc, CartItem, CartOption, CartPrice, CartSizes, CartTitle } from './cart.style';
+
 
 
 
@@ -8,7 +9,7 @@ function CartDesign({productDetailsModal,item}) {
 
     console.log("object");
 
-    const {title,desc,price,imgUrl,sizes} = item;
+    const {title,desc,price,imgUrl} = item;
     
   return (
     <CartItem onClick={()=> productDetailsModal(item)}>
