@@ -1,5 +1,5 @@
 
-import React , {memo } from 'react';
+import React , { memo } from 'react';
 import { CardImage, CartBtn, CartContent, CartDesc, CartItem, CartOption, CartPrice, CartSizes, CartTitle } from './cart.style';
 
 
@@ -23,18 +23,6 @@ function CartDesign({productDetailsModal,item}) {
         <CartPrice>
             ${price}
         </CartPrice>
-        <CartSizes>
-            <CartOption disabled>
-                select size
-            </CartOption>
-            {
-                sizes?.length > 0 && sizes?.map((item,index)=> (
-                    <CartOption key={index}>
-                        {item}
-                    </CartOption>
-                ))
-            }
-        </CartSizes>
         <CartBtn>
             add to cart
         </CartBtn>
