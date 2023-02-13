@@ -26,7 +26,7 @@ function Modal({closeModal,product}) {
                     {details?.desc}
                 </CartDesc>
                 <CartDesc>
-                     {
+                    {
                         (details?.rating <= 0) 
                         ? [...new Array(5)].map(()=>(
                                 <AiOutlineStar/>
