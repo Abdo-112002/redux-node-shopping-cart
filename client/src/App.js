@@ -3,6 +3,7 @@
 import React from "react";
 import styled from "styled-components";
 import CartComponent from "./components/cart/CartComponent";
+import FilterProducts from "./components/filter/FilterProducts";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import { StyledMinSection } from "./components/min-content/MinContent.style";
@@ -25,9 +26,7 @@ function App() {
     <MainContainer>
         <Header/>
         <StyledMinSection>
-            <div>
-              
-            </div>
+            <FilterProducts/>
             <CartComponent/>
         </StyledMinSection>
         <Footer/>

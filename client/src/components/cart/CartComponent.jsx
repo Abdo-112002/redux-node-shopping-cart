@@ -1,4 +1,4 @@
-import React, { useEffect, useState , useCallback} from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import data from '../../db.json';
 import Modal from '../modal/Modal';
 import { CartWrapper } from './cart.style';
