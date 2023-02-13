@@ -1,12 +1,12 @@
 
 import React , {useMemo} from 'react';
-import { CardImage, CartBtn, CartContent, CartDesc, CartItem, CartOption, CartPrice, CartSizes, CartTitle } from './cart.style';
+import { CardImage, CartBtn, CartContent, CartDesc, CartItem, CartPrice, CartTitle } from './cart.style';
 
 
 
 function CartDesign({item}) {
     
-    const {title,desc,price,imgUrl,sizes} = useMemo(() => {
+    const {title,desc,price,imgUrl} = useMemo(() => {
         console.log("object")
         return item;
     }, [item]);
@@ -24,18 +24,6 @@ function CartDesign({item}) {
         <CartPrice>
             ${price}
         </CartPrice>
-        <CartSizes>
-            <CartOption disabled>
-                select size
-            </CartOption>
-            {
-                sizes?.length > 0 && sizes?.map((item,index)=> (
-                    <CartOption key={index}>
-                        {item}
-                    </CartOption>
-                ))
-            }
-        </CartSizes>
         <CartBtn>
             add to cart
         </CartBtn>
