@@ -37,6 +37,7 @@ function Modal({closeModal,product}) {
                                 <AiFillStar color='gold'/> 
                             ))
                             return <AiOutlineStar/>
+                            
                         })
                     }
                 </CartDesc>
