@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { CartBtn, CartDesc, CartOption, CartPrice, CartSizes, CartTitle } from '../cart/cart.style';
+import StarRating from '../StarRating';
 import { ModalCloseBtn, ModalContent, ModalImg, ModalInfo, ModalWrapper } from './modal.style';
-
-import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
-
 
 function Modal({closeModal,product}) {
     console.log("modal");
@@ -14,6 +12,8 @@ function Modal({closeModal,product}) {
             setDetails({});
         }
     }, [product]);
+
+
   return (
     <ModalWrapper>
       <ModalContent>
@@ -26,18 +26,7 @@ function Modal({closeModal,product}) {
                     {details?.desc}
                 </CartDesc>
                 <CartDesc>
-                    {
-                        (details?.rating <= 0) 
-                        ? [...new Array(5)].map(()=>(
-                                <AiOutlineStar/>
-                        ))
-                        :  [...new Array(Math.floor(details?.rating) - 5)].map(()=> {
-                            [...new Array(Math.floor(details?.rating))].map(()=>(
-                                <AiFillStar color='gold'/> 
-                            ))
-                            return <AiOutlineStar/>
-                        })
-                    }
+                    <StarRating rating={details?.rating}/>
                 </CartDesc>
                 <CartPrice>
                     ${details?.price}
