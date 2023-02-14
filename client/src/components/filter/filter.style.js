@@ -32,7 +32,7 @@ export const FilterTypesContent = styled.div`
 `;
 
 export const InputLabel = styled.label.attrs(({name})=> ({
-    for : name,
+    htmlFor : name,
 }))`
     color: #2a5ea5;
 `;

@@ -6,16 +6,20 @@ import CartDesign from './CartDesign';
 
 
 function CartComponent() {
-  const [ProductsData , setData] = useState();
+  const [ProductsData , setData] = useState([]);
   const [openModal , setOpenModal] = useState({
     open : false,
     details : {},
   });
 
   useEffect(() => {
-    setData(data);
+      setData(data);
   }, []);
 
+  // const filterByCategory = (category) => {
+    
+  // }
+  
   const openDetailsModal = useCallback((data) => {
     setOpenModal({open : true ,details : {...data} });
   },[]);
