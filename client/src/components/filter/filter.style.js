@@ -37,9 +37,10 @@ export const InputLabel = styled.label.attrs(({name})=> ({
     color: #2a5ea5;
 `;
 
-export const FilterType = styled.input.attrs(({inputType,name})=> ({
+export const FilterType = styled.input.attrs(({inputType,name,checked})=> ({
     type : inputType,
     name : name,
+    checked : checked
 }))`
     font-size: 20px;
     accent-color:#2a5ea5;
