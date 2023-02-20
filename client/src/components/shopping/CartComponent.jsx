@@ -5,7 +5,7 @@ import { CartWrapper } from './cart.style';
 import CartDesign from './CartDesign';
 
 
-function CartComponent() {
+function CartComponent({addToBasket}) {
   const [ProductsData , setData] = useState([]);
   const [openModal , setOpenModal] = useState({
     open : false,
@@ -34,7 +34,7 @@ function CartComponent() {
           {
             ProductsData?.length > 0 &&
             ProductsData?.map((item)=> (
-              <CartDesign productDetailsModal={openDetailsModal} item={item} key={item.id}/>
+              <CartDesign addToBasket={addToBasket} productDetailsModal={openDetailsModal} item={item} key={item.id}/>
             ))
           }
 

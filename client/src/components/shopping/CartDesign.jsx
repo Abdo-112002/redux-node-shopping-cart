@@ -5,16 +5,16 @@ import { CardImage, CartBtn, CartContent, CartDesc, CartItem, CartOption, CartPr
 
 
 
-function CartDesign({productDetailsModal,item}) {
+function CartDesign({productDetailsModal,item , addToBasket}) {
 
     console.log("object");
 
     const {title,desc,price,imgUrl} = item;
     
   return (
-    <CartItem onClick={()=> productDetailsModal(item)}>
+    <CartItem>
       <CartContent>
-        <CardImage src={imgUrl}/>
+        <CardImage src={imgUrl} onClick={()=> productDetailsModal(item)}/>
         <CartTitle>
             {title}
         </CartTitle>
@@ -24,7 +24,7 @@ function CartDesign({productDetailsModal,item}) {
         <CartPrice>
             ${price}
         </CartPrice>
-        <CartBtn>
+        <CartBtn onClick={()=> addToBasket(item)}>
             add to cart
         </CartBtn>
       </CartContent>

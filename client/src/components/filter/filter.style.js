@@ -1,7 +1,7 @@
 
 
 import styled from "styled-components";
-import { CartTitle } from "../cart/cart.style";
+import { CartTitle } from "../shopping/cart.style";
 
 export const FilterWrapper = styled.div`
     padding: 50px 0;

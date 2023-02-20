@@ -42,8 +42,8 @@ const CardImage = styled.img`
   object-fit: cover;
   ${({imgDisplay})=> css`
     ${()=> imgDisplay === 'order' && `
-        width: 200px;
-        height: 200px;
+        width: 80px;
+        height: 80px;
     `}
   `}
 `;

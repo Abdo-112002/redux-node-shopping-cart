@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { CartBtn, CartDesc, CartOption, CartPrice, CartSizes, CartTitle } from '../cart/cart.style';
+import { CartBtn, CartDesc, CartOption, CartPrice, CartSizes, CartTitle } from '../shopping/cart.style';
 import StarRating from '../StarRating';
 import { ModalCloseBtn, ModalContent, ModalImg, ModalInfo, ModalWrapper } from './modal.style';
 
